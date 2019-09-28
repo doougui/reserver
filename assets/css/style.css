@@ -1,0 +1,46 @@
+table {
+	width: 100% !important;
+}
+
+.linha td:first-child {
+	color: #e74c3c;
+}
+
+span[data-toggle="tooltip"] {
+	color: #0056b3;
+	cursor: pointer;
+	transition: all 0.5s ease;
+}
+
+span[data-toggle="tooltip"] a {
+	text-decoration: none;
+}
+
+span[data-toggle="tooltip"]:hover {
+	color: #777777;
+}
+
+.footer {
+	height: 120px;
+	align-items: center;
+}
+
+.footer p {
+	flex: 1;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+::-webkit-scrollbar {
+	width: 3px;
+	background-color: #F8F9FA;
+	height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #343A40;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	height: 0;
+}
